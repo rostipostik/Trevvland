@@ -8,6 +8,7 @@
         href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;700&family=Ribeye&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css ">
     <title>Traval</title>
@@ -19,37 +20,43 @@
 
     <header class="header">
         <div class="container">
-            <div class="header-top">
-                <a href="#" class="header-logo">Trevland</a>
-                <nav class="nav">
-                    <ul class="menu">
-                        <li class="menu-list">
-                            <a href="" class="menu-link">Home</a>
-                        </li>
-                        <li class="menu-list">
-                            <a href="" class="menu-link">Location</a>
-                        </li>
-                        <li class="menu-list">
-                            <a href="" class="menu-link">Blog</a>
-                        </li>
-                        <li class="menu-list">
-                            <a href="" class="menu-link">About</a>
-                        </li>
-                        <li class="menu-list">
-                            <button class="btn bg-orange mobile-btn">Booking now</button>
-                        </li>
-                    </ul>
-                </nav>
-                <button class="btn header-btn bg-orange desctop-btn">Booking now</button>
-                <div class="mibile-menu"><span></span><span></span><span></span><span></span></div>
-
+            <div class="header__container">
+                <div class="header-top">
+                    <a href="#" class="header-logo">Trevland</a>
+                    <nav class="nav">
+                        <ul class="menu">
+                            <li class="menu-list">
+                                <a href="" class="menu-link">Home</a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="" class="menu-link">Location</a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="" class="menu-link">Blog</a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="" class="menu-link">About</a>
+    
+                             <li class="menu-list">
+                                <a href="" class="menu-link">Contact</a>
+                            </li>
+                            <li class="menu-list">
+                                <button class="btn bg-orange mobile-btn">Booking now</button>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="btn header-btn bg-orange desctop-btn">Booking now</button>
+                    <div class="mibile-menu"><span></span><span></span><span></span><span></span></div>
+    
+                </div>
             </div>
 
+
             <div class="header-bottom">
-                <h1 class="header-bottom-title">Railtrips To Here, There And Everywhere!</h1>
-                <p class="header-bottom-text">We all wish to start our year the best way possible and also according to
+                <h1 class="header-bottom-title" data-aos="fade-up">Railtrips To Here, There And Everywhere!</h1>
+                <p class="header-bottom-text" data-aos="fade-right" data-aos-delay="300">We all wish to start our year the best way possible and also according to
                     a common belief if you have a great start to your.</p>
-                <a href="#" class="header-bottom-link bg-orange">Explore more</a>
+                <a href="#" class="header-bottom-link bg-orange" data-aos="fade-up-right" data-aos-delay="400">Explore more</a>
             </div>
         </div>
     </header>
@@ -62,12 +69,12 @@
 
         <section class="lacation">
             <div class="container">
-                <h2 class="iner-title ff-gelassio">Popular Location</h2>
-                <p class="iner-subtitle location-subtitle">For every one of us, travel came first. We’ve spent years
+                <h2 class="iner-title ff-gelassio" data-aos="zoom-in">Popular Location</h2>
+                <p class="iner-subtitle location-subtitle" data-aos="zoom-in-up">For every one of us, travel came first. We’ve spent years
                     living as nomads, pioneers, and voyagers— from island hopping in the</p>
                 <div class="location-wrapper">
-                    <div class="location-block">
 
+                    <div class="location-block" data-aos="flip-down">
                         <div class="location-block-img">
                             <img src="./img/img-loc-1.jpg" alt="img-loc-1">
                         </div>
@@ -75,7 +82,7 @@
                         <p class="location-block-text">Istanbul is a major city in Turkey that straddles Europe. </p>
                     </div>
 
-                    <div class="location-block">
+                    <div class="location-block" data-aos="flip-left">
                         <div class="location-block-img">
                             <img src="./img/img-loc-2.jpg" alt="img-loc-2">
                         </div>
@@ -83,7 +90,7 @@
                         <p class="location-block-text">A 272-step long trek leads you to this century.</p>
                     </div>
 
-                    <div class="location-block">
+                    <div class="location-block" data-aos="flip-up">
                         <div class="location-block-img">
                             <img src="./img/img-loc-3.jpg" alt="img-loc-3">
                         </div>
@@ -97,10 +104,10 @@
         </section>
 
                 
-        <section class="slider">
+        <section class="slider" data-aos="zoom-in">
             <div class="container">
-                <h2 class="iner-title ff-gelassio">Popular Location</h2>
-                <p class="iner-subtitle slider-subtitle">For every one of us, travel came first. We’ve spent years
+                <h2 class="iner-title ff-gelassio" data-aos="zoom-in">Popular Location</h2>
+                <p class="iner-subtitle slider-subtitle" data-aos="zoom-in-up">For every one of us, travel came first. We’ve spent years
                     living as nomads, pioneers, and voyagers— from island hopping in the</p>
             </div>
             <div class="sliders">
@@ -171,14 +178,12 @@
 
 
         <section class="news">
-
-
             <div class="container">
-                <h2 class="iner-title ff-gelassio">From Blog & News</h2>
-                <p class="iner-subtitle slider-subtitle">Welcome to Community Conversations, a new interview series
+                <h2 class="iner-title ff-gelassio" data-aos="fade-down">From Blog & News</h2>
+                <p class="iner-subtitle slider-subtitle" data-aos="fade-down">Welcome to Community Conversations, a new interview series
                     featuring Intrepid travellers, creatives and activists in our community.</p>
                 <div class="news__wrapper">
-                    <div class="news__left">
+                    <div class="news__left" data-aos="zoom-in-right">
                         <img src="./img/left-1.jpg" alt="left-1" class="news__left-img">
                         <p class="news__left-title ff-gelassio">Banff National Park</p>
                         <p class="news__left-text">Banff National Park lies in the heart of the majestic Rocky Mountains
@@ -189,7 +194,7 @@
                     </div>
 
                     <div class="news__right">
-                        <div class="news_right-wrapper">
+                        <div class="news_right-wrapper" data-aos="zoom-out-left">
                             <div class="news__right-img"><img src="./img/right-1.jpg" alt="right-1"></div>
                             <div class="news__right-content">
                                 <p class="news__right-title ff-gelassio">The Hiroshima Peace!</p>
@@ -198,7 +203,7 @@
                                 <a href="" class="news__right-link">@shova_bd88</a>
                             </div>
                         </div>
-                        <div class="news_right-wrapper">
+                        <div class="news_right-wrapper" data-aos="zoom-in-left">
                             <div class="news__right-img"><img src="./img/right-2.jpg" alt="right-2"></div>
                             <div class="news__right-content">
                                 <p class="news__right-title ff-gelassio">The faithful prayers!</p>
@@ -206,7 +211,7 @@
                                 <a href="" class="news__right-link">@adem/smith</a>
                             </div>
                         </div>
-                        <div class="news_right-wrapper">
+                        <div class="news_right-wrapper" data-aos="zoom-in-left">
                             <div class="news__right-img"><img src="./img/right-3.jpg" alt="right-3"></div>
                             <div class="news__right-content">
                                 <p class="news__right-title ff-gelassio">Colourful waters!</p>
@@ -227,7 +232,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <div class="footer__block footer-contact">
+                <div class="footer__block footer-contact" data-aos="zoom-out">
                     <p class="footer__logo">Trevland</p>
                     <p class="footer__title">Contact us</p>
                     <a href="" class="footer__link">@shovasatkhira88.com</a>
@@ -239,7 +244,7 @@
                     </ul>
                 </div>
                 <div class="footer__block footer__menu">
-                    <ul class="footer__list">
+                    <ul class="footer__list" data-aos="zoom-out">
                         <li><a href=""></a>Services</li>
                         <li><a href=""></a>About</li>
                         <li><a href=""></a>Our story</li>
@@ -248,14 +253,14 @@
                     </ul>
                 </div>
                 <div class="footer__block footer__menu">
-                    <ul class="footer__list">
+                    <ul class="footer__list" data-aos="zoom-out">
                         <li><a href=""></a>Legal</li>
                         <li><a href=""></a>Terms & Conditions</li>
                         <li><a href=""></a>Privecy Policy</li>
                         <li><a href=""></a>Terms of use</li>
                     </ul>
                 </div>
-                <div class="footer__block footer__subscribe">
+                <div class="footer__block footer__subscribe" data-aos="zoom-out">
                     <p class="footer__subscribe-title">SUBSCRIBE NOW</p>
                     <form class="footer__form">
                         <input type="emeil" class="input-email" placeholder="Email">
@@ -270,6 +275,7 @@
 
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
 </body>
 

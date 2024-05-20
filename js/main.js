@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+        duration: 900
+    });
+})
+
 $(document).ready(function () {
     $(".sliders").slick({
         infinite: true,
@@ -45,7 +51,7 @@ $(document).ready(function () {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     dots: true,
-                    arrows: false,  
+                    arrows: false,
                     autoplay: true,
                     autoplaySpeed: 2500,
                 }
@@ -58,4 +64,14 @@ $(document).ready(function () {
         $(".menu").toggleClass('active');
         $("body").toggleClass('owerlay');
     })
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 99) {
+            $('.header-top').addClass('header-top__fixed')
+        } else {
+            $('.header-top').removeClass('header-top__fixed')
+        }
+    })
 });
+
+
