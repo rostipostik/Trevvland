@@ -62,6 +62,7 @@ $(document).ready(function () {
     $(".mibile-menu ").click(function () {
         $(".mibile-menu span").toggleClass('active');
         $(".menu").toggleClass('active');
+        $(".nav").toggleClass('active');
         $("body").toggleClass('owerlay');
     })
 
