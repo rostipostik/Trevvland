@@ -360,6 +360,17 @@ p.sliders__block-booking {
     z-index: 10;
 }
 
+.btn-slick-next {
+    right: 25%;
+    bottom: -54px;
+}
+
+.btn-slick-prev {
+    left: 25%;
+    bottom: -54px;
+}
+
+
 .slick-dots {
     position: absolute;
     bottom: -52px;
